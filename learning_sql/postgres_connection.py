@@ -5,7 +5,9 @@ import os
 
 
 class LearnPostgresql:
-
+    """
+    Learn postgresql basics - CRED operations
+    """
     def __init__(self):
         self.db_name = os.getenv("database")
         self.port = 5432
